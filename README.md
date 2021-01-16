@@ -3,8 +3,8 @@
 ## Overview
 We're creating an app that connects people to dining options owned by Black, Indigenous, and people of color. They're the most impacted by the pandemic so this would be a way to support them. 
 ### Contributors
+* Enrique Santamaría 
 * Erika Reyes 
-* Enrique Santamaría
 * Geri Massengale
 * Sofia Baig
 * Xernan Peralta
