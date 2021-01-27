@@ -1,0 +1,141 @@
+.bg-light{
+background-color: rgb(200, 228, 214);
+background: url('images/Herobg.png');
+
+} 
+
+.p {
+padding: 200px;
+height: 888px;
+}
+
+.headerLead {
+/* /H1 Poppins-semibold-50pt */
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+line-height: 75px;
+text-align: right;
+/* /cookie icing */
+color: #FCFBFB;
+}
+
+.form-control {
+width: 602px;
+height: 80px;
+top: 794px;
+background: #FFEDD8;
+border-radius: 0px;
+border: 0px 0px 3px 0px solid #EDBA56 !important;
+}
+
+.me-2 {
+border-bottom: 3px solid #EDBA56 !important;
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 34px;
+align-items: center;
+}
+
+.btn-outline-success {
+width: 247px;
+height: 80px;
+/* blueberry yumyum */
+background: #0771B4;
+border-radius: 0px;
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.p-module {
+    padding: 50px;
+}
+
+.navbar-brand {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;;
+}
+
+.navBrand {
+width: 156.96px;
+height: 108px;
+}
+
+.nav-link {
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 21px;
+line-height: 31px;
+color: #444444;
+left: -38px;
+
+}
+
+.navbar {
+height: 136px;
+background: #FCFBFB; !important;
+}
+
+.dropdown {
+width: 196px;
+height: 48px;
+background: #EDBA56;
+border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .carousel-inner .carousel-item > div {
+        display: none;
+    }
+    .carousel-inner .carousel-item > div:first-child {
+        display: block;
+    }
+}
+
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    display: flex;
+}
+
+/* display 3 */
+@media (min-width: 768px) {
+    
+    .carousel-inner .carousel-item-right.active,
+    .carousel-inner .carousel-item-next {
+      transform: translateX(33.333%);
+    }
+    
+    .carousel-inner .carousel-item-left.active, 
+    .carousel-inner .carousel-item-prev {
+      transform: translateX(-33.333%);
+    }
+}
+
+.carousel-inner .carousel-item-right,
+.carousel-inner .carousel-item-left{ 
+  transform: translateX(0);
+}
+
