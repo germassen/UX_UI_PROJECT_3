@@ -1,7 +1,6 @@
 .bg-light{
 background-color: rgb(200, 228, 214);
-background: url('https://github.com/germassen/UX_UI_PROJECT_3/blob/main/images/Herobg.png') !important;
-
+background: url("/images/Herobg.png") !important;
 } 
 
 .p {
