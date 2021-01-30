@@ -18,12 +18,12 @@
   <!--TOP NAV-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      <img src="images/Nourish logo nav.png" class="navBrand"><a class="navbar-brand" href="#">Nourish</a>
+     <div class="logoName"><img src="images/NavLogo.png" class="navBrand"><a class="navbar-brand" href="#">Nourish</a></div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse customFlex" id="navbarSupportedContent">
+        <ul class="navbar-nav mb-2 mb-lg-0 ml-auto">
           <li class="nav-item">
             <a class="nav-link" href="#">RESTAURANTS</a>
           </li>
@@ -34,18 +34,12 @@
             <a class="nav-link" href="#">ARTICLES</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Log In</a>
+            <a class="nav-link nav-login" href="#">Log In</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <li class="nav-item">
+            <a class="nav-link signupButton nav-login" href="#" role="button">
               Sign Up
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="#">Customer</a></li>
-              <li><a class="dropdown-item" href="#">Business</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
           </li>
         </ul>
       </div>
@@ -61,49 +55,39 @@
   </div>
   <!--CAROUSEL 1-->
   <div class="container text-center my-3 p-module">
-    <h2 class="font-weight-light">Black-owned restaurants around you</h2>
+    <h2 class="carousel-header">Black-owned restaurants around you</h2>
     <div class="row mx-auto my-auto">
-        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-            <div class="carousel-inner w-100" role="listbox">
+        <div id="recipeCarousel" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner" role="listbox">
                 <div class="carousel-item active">
                     <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=1">
+                        <div class="card card-body1">
+                            <img class="img-fluid" src="images/bo1.png">
+                            <div class="carousel-title">Burger Smash</div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item active">
                     <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=2">
+                        <div class="card card-body1">
+                          <img class="img-fluid" src="images/bo2.png">
+                          <div class="carousel-title">Ima's Steak</div>                        
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item active">
                     <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=3">
+                        <div class="card card-body1">
+                          <img class="img-fluid" src="images/bo3.png">
+                          <div class="carousel-title">Ana's Cookies</div>
                         </div>
                     </div>
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item active">
                     <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=4">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=5">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=6">
+                        <div class="card card-body1">
+                          <img class="img-fluid" src="images/bo4.png">
+                          <div class="carousel-title">Smokey John's BBQ</div>
                         </div>
                     </div>
                 </div>
@@ -118,76 +102,24 @@
             </a>
         </div>
     </div>
-    <h5 class="mt-2">Advances one slide at a time</h5>
 </div>
-  <!--CAROUSEL 2-->
-  <div class="container text-center my-3 p-module">
-    <h2 class="font-weight-light">Fund your local restaurants</h2>
-    <div class="row mx-auto my-auto">
-        <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
-            <div class="carousel-inner w-100" role="listbox">
-                <div class="carousel-item active">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=1">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=2">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=3">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=4">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=5">
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <div class="col-md-4">
-                        <div class="card card-body">
-                            <img class="img-fluid" src="http://placehold.it/380?text=6">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev w-auto" href="#recipeCarousel" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next w-auto" href="#recipeCarousel" role="button" data-slide="next">
-                <span class="carousel-control-next-icon bg-dark border border-dark rounded-circle" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
-    </div>
-    <h5 class="mt-2">Advances one slide at a time</h5>
-  </div>
   <!--HERO STORY - COVID SUPPORT-->
-  <div class="card bg-dark text-white p-module">
-    <img src="images/GettyImages-1227994299.jpg" class="card-img" alt="...">
-    <div class="card-img-overlay">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text">Last updated 3 mins ago</p>
+  <div class="container text-center my-3 p-module">
+  <!-- <div class="card mb-3"> -->
+    <div class="row g-0">
+      <h5 class="card-title">COVID Support</h5>
+      <div class="col-md-9">
+        <img src="images/cardimage.png" alt="COVID updates" class="imgCOVID">
+      </div>
+      <div class="col-md-3">
+        <div class="card-body">
+          <h1 class="mainStory">How are the restaurants around you handling Covid?</h1>
+          <p class="card-text">Read stories about how your local small BIPOC businesses are managing all of the fluctuating COVID-19 guidelines. Then find out how to help your favorite local restaurants stay afloat which benefits consumers, proprietors and your neighborhood’s commercial health.</p>
+          <div class="storyButton">
+            <div class="btnText">Learn more</div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   <!--ARTICLE CARDS-->
