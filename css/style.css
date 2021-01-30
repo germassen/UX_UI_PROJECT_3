@@ -153,6 +153,10 @@ width: 295px;
 padding: 0px;
 }
 
+.card-body2 {
+padding: 0px;
+}
+
 .carousel-title {
 width: 295px;
 height: 40px;
@@ -242,6 +246,85 @@ line-height: 20px;
 color: #000000;
 text-align: left;
 }
+
+.card {
+/* border: 3px solid purple; */
+border-radius: 0px;
+}
+
+.card2 {
+background-color: #EDBA56;
+align-items: center;
+}
+
+.card2-alt {
+background-color: #E9D0A0;
+align-items: center;
+}
+
+.col-sm-3 {
+padding-left: 0px;
+padding-right: 20px;
+}
+
+.articleImg {
+/* border: 3px solid red; */
+}
+
+.topicSq {
+width: 144px;
+height: 34px;
+background: #038358;
+padding-top: 10px;
+margin: auto;
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+align-items: center;
+text-align: center;
+color: white;
+position: relative;
+margin-top: -20px;
+z-index: 2;
+/* margin-bottom: 20px; */
+}
+
+.articleCap {
+width: 235px;
+height: 100px;
+padding-top: 20px;
+padding-left: 5px;
+padding-right: 5px;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+}
+
+.topicSq-alt {
+width: 144px;
+height: 34px;
+background: #EDBA56;
+padding-top: 10px;
+margin: auto;
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+align-items: center;
+text-align: center;
+color: white;
+position: relative;
+margin-top: -20px;
+z-index: 2;
+/* margin-bottom: 20px; */
+}
+
 
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {
