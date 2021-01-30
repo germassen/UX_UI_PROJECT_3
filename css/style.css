@@ -272,56 +272,56 @@ padding-right: 20px;
 }
 
 .topicSq {
-width: 144px;
-height: 34px;
-background: #038358;
-padding-top: 10px;
-margin: auto;
-font-family: Hind;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 15px;
-align-items: center;
-text-align: center;
-color: white;
-position: relative;
-margin-top: -20px;
-z-index: 2;
+width: 144px!important;
+height: 34px!important;
+background: #038358!important;
+padding-top: 10px!important;
+margin: auto!important;
+font-family: Hind!important;
+font-style: normal!important;
+font-weight: normal!important;
+font-size: 13px!important;
+line-height: 15px!important;
+align-items: center!important;
+text-align: center!important;
+color: white!important;
+position: relative!important;
+margin-top: -20px!important;
+z-index: 2!important;
 /* margin-bottom: 20px; */
 }
 
 .articleCap {
-width: 235px;
-height: 100px;
-padding-top: 20px;
-padding-left: 5px;
-padding-right: 5px;
-font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 20px;
-text-align: center;
+width: 235px!important;
+height: 100px!important;
+padding-top: 20px!important;
+padding-left: 5px!important;
+padding-right: 5px!important;
+font-family: Poppins!important;
+font-style: normal!important;
+font-weight: 600!important;
+font-size: 18px!important;
+line-height: 20px!important;
+text-align: center!important;
 }
 
 .topicSq-alt {
 width: 144px;
 height: 34px;
-background: #EDBA56;
-padding-top: 10px;
-margin: auto;
-font-family: Hind;
-font-style: normal;
-font-weight: normal;
-font-size: 13px;
-line-height: 15px;
+background: #EDBA56 !important;
+padding-top: 10px!important;
+margin: auto!important;
+font-family: Hind!important;
+font-style: normal!important;
+font-weight: normal!important;
+font-size: 13px!important;
+line-height: 15px!important;
 align-items: center;
 text-align: center;
-color: white;
-position: relative;
-margin-top: -20px;
-z-index: 2;
+color: white!important;
+position: relative!important;
+margin-top: -20px!important;
+z-index: 2!important;
 /* margin-bottom: 20px; */
 }
 
