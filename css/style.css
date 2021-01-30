@@ -1,6 +1,6 @@
 .bg-light{
 background-color: rgb(200, 228, 214);
-background: url('/images/Herobg.png')!important;
+background: url("/images/Herobg.png")!important;
 } 
 
 .p {
@@ -250,6 +250,7 @@ text-align: left;
 .card {
 /* border: 3px solid purple; */
 border-radius: 0px;
+border: 0px;
 }
 
 .card2 {
