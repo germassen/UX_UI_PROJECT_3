@@ -1,6 +1,6 @@
 .bg-light{
 background-color: rgb(200, 228, 214);
-background: url("/images/Herobg.png")!important;
+background: url("/Users/Geri/Documents/GitHub/UX_UI_PROJECT_3/images/Herobg.png")!important;
 } 
 
 .p {
@@ -65,9 +65,19 @@ font-size: 16px;
 line-height: 26px;
 align-items: center;
 text-align: center;
-
-color: #000000;
+color: black;
 }
+
+.btn {
+transition-duration: 0.4s;
+}
+      
+.btn:hover {
+background-color: white; /* Green */
+border: 2px solid #EDBA56;
+color: black;
+}
+
 
 .p-module {
     padding: 50px;
@@ -195,7 +205,7 @@ text-align: center;
 }
 
 .carousel-item {
-border: 3px solid red;
+border: 0px solid red;
 }
 
 .card-title {
