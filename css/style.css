@@ -27,7 +27,7 @@ font-weight: 600;
 font-size: 38px;
 line-height: 57px;
 display: flex;
-
+text-align: left;
 color: #000000;
 
 }
@@ -179,7 +179,7 @@ display: flex;
 align-items: center;
 }
 
-.carousel-header {
+.font-weight-light {
 font-family: Poppins;
 font-style: normal;
 font-weight: 600;
@@ -188,6 +188,7 @@ line-height: 57px;
 color: #000000;
 display: flex;
 align-items: left;
+padding-top: 50px;
 }
 
 .card-body1 {
@@ -200,9 +201,7 @@ padding: 0px;
 padding: 0px;
 }
 
-.carousel-title {
-width: 295px;
-height: 40px;
+.labels {
 /* mango salsa */
 background: #EDBA56;
 font-family: Hind;
@@ -212,6 +211,20 @@ font-size: 18px;
 text-align: center;
 color: #000000;
 padding-top: 7px;
+padding-bottom: 7px;
+}
+
+.labels2 {
+/* mango salsa */
+background: #038358;
+font-family: Hind;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+text-align: center;
+color: #FFFFFF;
+padding-top: 7px;
+padding-bottom: 7px;
 }
 
 .btnText {
@@ -229,16 +242,16 @@ text-align: center;
 /* background-color: paleturquoise; */
 }
 
-/* .container {
-    background-color: palegoldenrod;
-} */
-
 .carousel-inner {
 /* background-color: palevioletred; */
 }
 
 .carousel-item {
 border: 0px solid red;
+}
+
+.dif {
+    padding-left: 20px;
 }
 
 .card-title {
