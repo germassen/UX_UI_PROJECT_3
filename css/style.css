@@ -9,6 +9,29 @@ padding-right: 75px;
 height: 888px;
 }
 
+.pAbout {
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+color: #000000;
+text-align: left;
+padding-right: 25px;
+}
+
+.about {
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 57px;
+display: flex;
+
+color: #000000;
+
+}
+
 .headerLead {
 /* /H1 Poppins-semibold-50pt */
 font-family: Poppins;
@@ -70,6 +93,7 @@ color: black;
 
 .btn {
 transition-duration: 0.4s;
+border: 2px solid #EDBA56;
 }
       
 .btn:hover {
@@ -78,6 +102,15 @@ border: 2px solid #EDBA56;
 color: black;
 }
 
+.storyButton {
+    transition-duration: 0.4s;
+    border: 2px solid #EDBA56;
+    }
+.storyButton:hover {
+background-color: white; /* Green */
+border: 2px solid #EDBA56;
+color: black;
+}
 
 .p-module {
     padding: 50px;
@@ -105,7 +138,7 @@ color: #444444;
 }
 
 .nav-item {
-padding: 15px;
+padding: 5px;
 }
 
 .nav-login {
@@ -182,7 +215,7 @@ padding-top: 7px;
 }
 
 .btnText {
-padding-top: 15px;
+padding-top: 18px;
 font-family: Hind;
 font-style: normal;
 font-weight: normal;
@@ -255,6 +288,8 @@ font-size: 18px;
 line-height: 20px;
 color: #000000;
 text-align: left;
+padding-right: 20px;
+padding-left: 0px;
 }
 
 .card {
@@ -329,13 +364,67 @@ font-size: 13px!important;
 line-height: 15px!important;
 align-items: center;
 text-align: center;
-color: white!important;
+color: BLACK!important;
 position: relative!important;
 margin-top: -20px!important;
 z-index: 2!important;
 /* margin-bottom: 20px; */
 }
 
+.footer {
+left: 0px;
+top: 5708px;
+/* charcoal bbq */
+background: #444444;
+}
+
+.footerLinks {
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+color: #FFFFFF;
+list-style-type: none; /* Remove bullets */
+padding: 0; /* Remove padding */
+margin: 0;
+text-align: left;
+}
+
+.footerLogo {
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 72px;
+line-height: 80px;
+text-align: right;
+
+/* mango salsa */
+
+color: #EDBA56;
+
+}
+
+.footerPhrase {
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: right;
+color: #EDBA56;
+}
+
+.smallText {
+padding-top: 50px;
+font-family: Hind;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: left;
+color: #FFFFFF;
+}
 
 @media (max-width: 768px) {
     .carousel-inner .carousel-item > div {

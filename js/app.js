@@ -20,4 +20,6 @@ $('#recipeCarousel').carousel({
         }
   });
 
-  
+  function hideIcon(self) {
+    self.style.backgroundImage = 'none';
+}
