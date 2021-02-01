@@ -106,9 +106,9 @@ color: black;
 }
 
 .storyButton {
-    transition-duration: 0.4s;
-    border: 2px solid #EDBA56;
-    }
+transition-duration: 0.4s;
+border: 2px solid #EDBA56;
+}
 .storyButton:hover {
 background-color: white; /* Green */
 border: 2px solid #EDBA56;
@@ -116,14 +116,14 @@ color: black;
 }
 
 .p-module {
-    padding: 50px;
+padding: 50px;
 }
 
 .navbar-brand {
-    font-family: Poppins;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 40px;;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 40px;;
 }
 
 .navBrand {
