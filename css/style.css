@@ -1,7 +1,7 @@
 .bg-light{
 background-color: rgb(200, 228, 214);
 background: url("../images/Herobg.png")!important;
-background-repeat: no-repeat;
+background-repeat: no-repeat!important;
 background-attachment:scroll;
 background-position:top;
 } 
@@ -56,7 +56,6 @@ padding-top: 100px;
 
 .d-flex {
 padding-top: 400px;
-align-items:center;
 }
 
 .form-control {
