@@ -1,6 +1,9 @@
 .bg-light{
 background-color: rgb(200, 228, 214);
 background: url("../images/Herobg.png")!important;
+background-repeat: no-repeat;
+background-attachment:scroll;
+background-position:top;
 } 
 
 .p {
@@ -42,17 +45,18 @@ line-height: 75px;
 text-align: right;
 /* /cookie icing */
 color: #FCFBFB;
-width: 897px;
-height: 148px;
+/* width: 897px;
+height: 148px; */
 /* left: 446px;
 top: 212px; */
-margin-left: 200px;
+/* margin-left: 200px; */
 padding-top: 100px;
 /* border: 1px solid red; */
 }
 
 .d-flex {
 padding-top: 400px;
+align-items:center;
 }
 
 .form-control {
